@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:id="@+id/layout"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView android:id="@+id/rotatetext"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="will be rotate"
+            />
+    <Button android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rotate"
+            android:onClick="startAnimation"
+            >
+    </Button>
+    <TextView android:id="@+id/scrolltext" android:text="scroll text" android:lines="1"
+              android:layout_width="fill_parent" android:layout_height="wrap_content"
+              android:scrollHorizontally="true"
+            >
+    </TextView>
+    <Button android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animation left bounce"
+            android:onClick="startAnimation"
+            >
+    </Button>
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/fadeout"
+              android:scrollHorizontally="true"
+              android:lines="1" android:text="fade out"
+            >
+    </TextView>
+    <Button android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fade"
+            android:onClick="startAnimation"
+            >
+    </Button>
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"
+            android:onClick="startAnimation"
+            android:text="and/remove component"
+            >
+
+    </Button>
+
+
+</LinearLayout>
+
